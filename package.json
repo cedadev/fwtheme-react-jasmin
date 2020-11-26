@@ -1,0 +1,38 @@
+{
+  "name": "fwtheme-react-jasmin",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "babel-preset-react-app": "^10.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "rm -rf build && NODE_ENV=production babel src --out-dir build --copy-files",
+    "watch": "rm -rf build && NODE_ENV=development babel src --watch --out-dir build --copy-files"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
