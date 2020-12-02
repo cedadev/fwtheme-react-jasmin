@@ -63,7 +63,7 @@ const Footer = ({ fluid }) => (
                 <Col md={5} className="text-center">
                     <p className="mb-0">
                         <strong>
-                            JASMIN is operated by the Science and Technology Council on behalf of the
+                            JASMIN is operated by the Science and Technology Facilities Council on behalf of the
                             Natural Environment Research Council.
                         </strong>
                     </p>
