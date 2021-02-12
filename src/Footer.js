@@ -6,17 +6,17 @@ import Col from 'react-bootstrap/Col';
 
 
 const Footer = ({ fluid }) => (
-    <footer className="site-footer border-top pt-3 px-3">
+    <footer className="site-footer border-top pt-3 px-3 mt-3">
         <Container fluid={fluid}>
             <Row>
                 <Col>
                     <h2 className="footer-heading">Useful links</h2>
                     <ul className="footer-list">
-                        <li><a href="https://www.jasmin.ac.uk" target="_blank">JASMIN Site</a></li>
-                        <li><a href="https://www.ceda.ac.uk" target="_blank">CEDA Site</a></li>
-                        <li><a href="https://accounts.jasmin.ac.uk" target="_blank">JASMIN Accounts Portal</a></li>
-                        <li><a href="https://cloud.jasmin.ac.uk" target="_blank">JASMIN Cloud Portal</a></li>
-                        <li><a href="https://notebooks.jasmin.ac.uk" target="_blank">JASMIN Notebook Service</a></li>
+                        <li><a href="https://www.jasmin.ac.uk" target="_blank">JASMIN</a></li>
+                        <li><a href="https://www.ceda.ac.uk" target="_blank">CEDA</a></li>
+                        <li><a href="https://accounts.jasmin.ac.uk" target="_blank">Accounts Portal</a></li>
+                        <li><a href="https://cloud.jasmin.ac.uk" target="_blank">Cloud Portal</a></li>
+                        <li><a href="https://notebooks.jasmin.ac.uk" target="_blank">Notebook Service</a></li>
                     </ul>
                 </Col>
                 <Col>
@@ -38,18 +38,6 @@ const Footer = ({ fluid }) => (
                             <a href="https://twitter.com/cedanews" target="_blank">
                                 <i className="mr-2 fab fa-fw fa-twitter"></i>
                                 Twitter
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/CentreForEnvironmentalDataArchival" target="_blank">
-                                <i className="mr-2 fab fa-fw fa-facebook"></i>
-                                Facebook
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/centre-for-environmental-data-archival" target="_blank">
-                                <i className="mr-2 fab fa-fw fa-linkedin"></i>
-                                LinkedIn
                             </a>
                         </li>
                         <li>
