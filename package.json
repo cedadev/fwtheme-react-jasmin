@@ -4,7 +4,9 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
