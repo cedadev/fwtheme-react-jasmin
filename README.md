@@ -67,7 +67,7 @@ const AppNavbar = ({ authenticatedUser }) => (
                 <LinkContainer to="/section1">
                     <Nav.Link>Section 1</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/consortia">
+                <LinkContainer to="/section2">
                     <Nav.Link>Section 2</Nav.Link>
                 </LinkContainer>
             </Nav>
