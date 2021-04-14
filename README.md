@@ -71,7 +71,7 @@ const AppNavbar = ({ authenticatedUser }) => (
                     <Nav.Link>Section 2</Nav.Link>
                 </LinkContainer>
             </Nav>
-            <Navbar.Text className="bg-danger px-2">
+            <Navbar.Text>
                 <i className="fas fa-fw fa-user mr-1" />
                 {authenticatedUser.username}
             </Navbar.Text>
