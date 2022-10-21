@@ -1,8 +1,8 @@
 /* Import JASMIN theme CSS from artefacts server */
-@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/4/flatly/bootstrap.css');
-@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/_assets/css/MyFontsWebfontsKit.css');
-@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/_assets/css/webfonts.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.6/theme/css/main.css');
+@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.6/assets/css/MyFontsWebfontsKit.css');
+@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.6/assets/css/webfonts.css');
+@import url('https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.6/vendor/css/fontawesome-all.min.css');
 
 /* Code to force the footer to the bottom of the page */
 html { height: 100%; }
