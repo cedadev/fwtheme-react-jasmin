@@ -1,50 +1,56 @@
 {
-  "name": "fwtheme-react-jasmin",
-  "version": "0.1.0",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "source": "src/index.js",
-  "files": [
-    "dist"
-  ],
-  "peerDependencies": {
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.4.0",
-    "react-dom": "^17.0.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.12.8",
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.16",
-    "@babel/preset-react": "^7.12.13",
-    "@rollup/plugin-babel": "^5.2.3",
-    "postcss": "^8.2.6",
-    "rollup": "^2.38.5",
-    "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.0"
-  },
-  "scripts": {
-    "prepack": "yarn build",
-    "build": "NODE_ENV=production rollup -c",
-    "start": "NODE_ENV=development rollup -c -w"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "fwtheme-react-jasmin",
+    "version": "0.1.0",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "source": "src/index.js",
+    "files": [
+        "dist"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "peerDependencies": {
+        "react": "^17.0.1",
+        "react-bootstrap": "^1.4.0",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.8",
+        "@babel/core": "^7.12.9",
+        "@babel/preset-env": "^7.12.16",
+        "@babel/preset-react": "^7.12.13",
+        "@rollup/plugin-babel": "^5.2.3",
+        "postcss": "^8.2.6",
+        "rollup": "^2.38.5",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.0"
+    },
+    "scripts": {
+        "prepack": "yarn build",
+        "build": "NODE_ENV=production rollup -c",
+        "start": "NODE_ENV=development rollup -c -w"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "babel": {
+        "presets": [
+            "@babel/env",
+            "@babel/preset-react"
+        ]
+    }
 }
