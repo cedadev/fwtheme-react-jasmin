@@ -29,7 +29,7 @@ const Footer = ({ fluid }) => (
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.ceda.ac.uk/contact/" target="_blank">
+                            <a href="https://jasmin.ac.uk/help/contact/" target="_blank">
                                 <i className="mr-2 fas fa-fw fa-life-ring"></i>
                                 Helpdesk
                             </a>
