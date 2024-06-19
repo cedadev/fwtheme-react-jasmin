@@ -2,6 +2,7 @@
   "name": "fwtheme-react-jasmin",
   "version": "0.1.0",
   "main": "dist/index.cjs.js",
+  "type": "module",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
   "files": [
