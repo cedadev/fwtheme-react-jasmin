@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row.js';
+import Col from 'react-bootstrap/Col.js';
 
 
 const PageHeader = props => (
