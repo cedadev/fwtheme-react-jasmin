@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Container from 'react-bootstrap/Container.js';
-import Row from 'react-bootstrap/Row.js';
-import Col from 'react-bootstrap/Col.js';
+import { Container } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 
 const Footer = ({ fluid }) => (
